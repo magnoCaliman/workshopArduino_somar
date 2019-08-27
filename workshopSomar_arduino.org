@@ -19,10 +19,10 @@
 
 
 * 1. BLINK
-1. Copiar e colar o código abaixo em uma janela nova da Arduino IDE
-2. Selecionar a placa e porta correta em ~Tools -> Board~ e ~Tools -> Port~
-3. Salvar o arquivo
-4. Fazer upload
+1. copiar e colar o código abaixo em uma janela nova da Arduino IDE
+2. selecionar a placa e porta correta em ~Tools -> Board~ e ~Tools -> Port~
+3. salvar o arquivo
+4. fazer upload
 
 *** 1.1 CÓDIGO
 #+BEGIN_SRC c
