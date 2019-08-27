@@ -120,7 +120,6 @@ void loop()
   - https://www.youtube.com/watch?v=-RcPZdihrp4
 
 *** 4.1.2 COMENTÁRIOS 
-- variáveis
 - convenção de nomenclatura
 
 *** 4.1.3 MOD
@@ -157,10 +156,21 @@ void loop()
 
 - qual a diferença entre /delayRandom_07.ino/ e /delayRandom_08.ino/?
 
-* if
+
+* 6. ~if()~
+*** 6.1 CÓDIGO
+/exemplos_WorkshopSomar/if_10/if_10.ino/
+/exemplos_WorkshopSomar/if_11/if_11.ino/
+
+*** 6.2 COMENTÁRIOS
+- testes de ~TRUE~ e ~FALSE~
+- ~=~ vs. ~==~~
+
+*** 6.3 MODS
 - como mudar a probabilidade?
 
-* iteracao 
+* 7. ITERAÇÃO 
+*** 7.1 CÓDIGO
 - como fazer subir mais rápido, /e depois voltar/?
 
 * tudo junto e misturado...
