@@ -1,4 +1,4 @@
-* Arduino?
+* 0 - Arduino?
 - O quê é?
   - https://www.arduino.cc/
 - O quê dá para fazer?
@@ -18,12 +18,13 @@
   - http://www.wch.cn/download/CH341SER_EXE.html
 
 
-* BLINK
+* 1 - BLINK
 - Copiar e colar o código abaixo em uma janela nova da Arduino IDE
 - Selecionar a placa e porta correta em Tools -> Board & Tools -> Port
 - Salvar o arquivo
 - Fazer upload
 
+** CÓDIGO
 #+BEGIN_SRC c
 int pinoLed = 13;
 
@@ -41,19 +42,33 @@ void loop()
 }
 #+END_SRC
 
-*Como mudar o tempo de piscagem?* 
+** MODS
+- Como mudar o tempo de piscagem?
 
+* 2 - ~tone()~
 
-* ~tone()~
+** CÓDIGO
+_exemplos_WorkshopSomar/tone_02/tone_02.ino_
+
 ** CIRCUITO
+_exemplos_WorkshopSomar/tone_02/tone_02.png_
 
-![](./exemplos_workshopSomar/tone_02/tone_02.png)
+** COMENTÁRIOS
+- ~void setup()~ e ~void loop()~
+- funções & argumentos
+- RTFM
+- sintaxe
 
-- /tone_02.ino/
-- tone sozinho (2 arg)
-- 2 tone? documentação diz que não pode
-  - tone(5, 100); tone(5, 101); //sounds nice...
-
+** MODS
+- /"Only one tone can be generated at a time"/
+#+BEGIN_SRC c
+// pode isso então?
+void loop()
+{
+  tone(5, 100); 
+  tone(5, 101);
+}
+#+END_SRC
 
 * delay
 - tone_delay
