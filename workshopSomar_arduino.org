@@ -1,0 +1,62 @@
+* 0 - Arduino?
+o quê? / placas
+exemplos
+
+** 1.1 - Instalação
+drivers
+
+* 1 - blink_01
+#+BEGIN_SRC c
+int pinoLed = 13;
+
+void setup()
+{
+  pinMode(pinoLed, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(pinoLed, HIGH);
+  delay(1000);
+  digitalWrite(pinoLed, LOW);
+  delay(500);  
+}
+#+END_SRC
+
+* tone
+- tone sozinho (2 arg)
+- 2 tone? documentação diz que não pode
+  - tone(5, 100); tone(5, 101); //sounds nice...
+
+* delay
+- tone_delay
+- vários em sequência!
+#+BEGIN_SRC c
+tone(5, 100, 90);
+  delay(100);
+  tone(5, 200, 90);
+  delay(100);
+  tone(5, 300, 90);
+  delay(100);
+  tone(5, 400, 90);
+  delay(100);
+#+END_SRC
+
+* var
+- stranger tempo...
+- mudar para o pino 7
+- desafio: var_operacao
+  - como criar lógica para duração ser /em função/ do tempo de delay?
+
+* random
+- noise!
+- qual a diferença entre delayRandom_07 e 08?
+
+* if
+- como mudar a probabilidade?
+
+* iteracao 
+- como fazer subir mais rápido, /e depois voltar/?
+
+* tudo junto e misturado...
+- 
