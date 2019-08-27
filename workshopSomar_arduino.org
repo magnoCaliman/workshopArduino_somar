@@ -7,6 +7,7 @@
   - https://vimeo.com/45422593
   - https://youtu.be/JCiXV6b7N0A
   - https://www.instructables.com/member/amandaghassaei/instructables/
+
 ** Instalação
 - https://www.arduino.cc/en/Main/Software
 
@@ -17,7 +18,12 @@
   - http://www.wch.cn/download/CH341SER_EXE.html
 
 
-* blink_01
+* BLINK
+1. Copiar e colar o código abaixo em uma janela nova da Arduino IDE
+2. Selecionar a placa e porta correta em Tools -> Board & Tools -> Port
+3. Salvar o arquivo
+4. Fazer upload
+
 #+BEGIN_SRC c
 int pinoLed = 13;
 
@@ -35,6 +41,7 @@ void loop()
 }
 #+END_SRC
 
+*Como mudar o tempo de piscagem?* 
 
 * tone
 - tone sozinho (2 arg)
