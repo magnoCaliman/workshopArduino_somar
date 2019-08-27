@@ -19,10 +19,10 @@
 
 
 * BLINK
-1. Copiar e colar o código abaixo em uma janela nova da Arduino IDE
-2. Selecionar a placa e porta correta em Tools -> Board & Tools -> Port
-3. Salvar o arquivo
-4. Fazer upload
+- Copiar e colar o código abaixo em uma janela nova da Arduino IDE
+- Selecionar a placa e porta correta em Tools -> Board & Tools -> Port
+- Salvar o arquivo
+- Fazer upload
 
 #+BEGIN_SRC c
 int pinoLed = 13;
@@ -43,10 +43,16 @@ void loop()
 
 *Como mudar o tempo de piscagem?* 
 
-* tone
+
+* ~tone()~
+** CIRCUITO
+[[./exemplos_workshopSomar/tone_02/tone_02.png]]
+
+- /tone_02.ino/
 - tone sozinho (2 arg)
 - 2 tone? documentação diz que não pode
   - tone(5, 100); tone(5, 101); //sounds nice...
+
 
 * delay
 - tone_delay
