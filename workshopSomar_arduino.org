@@ -20,7 +20,7 @@
 
 * 1. BLINK
 1. Copiar e colar o código abaixo em uma janela nova da Arduino IDE
-2. Selecionar a placa e porta correta em Tools -> Board & Tools -> Port
+2. Selecionar a placa e porta correta em ~Tools -> Board~ e ~Tools -> Port~
 3. Salvar o arquivo
 4. Fazer upload
 
