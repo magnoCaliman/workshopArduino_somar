@@ -178,7 +178,7 @@ void loop()
 *** 7.2 COMENTÁRIOS
 - ~x = x + 1~
 
-*** MODS
+*** 7.3 MODS
 - como fazer subir mais rápido, /e depois voltar/?
 
 * 8. TUDO JUNTO E MISTURADO
