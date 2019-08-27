@@ -84,7 +84,7 @@ void loop()
 *** 2.2 COMENTÁRIOS
 - comentários!
 - quantidade de argumentos
-- ordem de execução
+- ordem/tempo de execução
 
 *** 2.3 MODS
 - agora vários sons em sequência!
@@ -109,9 +109,30 @@ void loop()
   - notas musicais: http://pages.mtu.edu/~suits/notefreqs.html
   - qualquer um!
 
-* var
+
+* 4. VARIÁVEIS
+** 4.1 EXEMPLO 1
+*** 4.1.1 CÓDIGO
+/exemplos_WorkshopSomar/toneVar_04_problema/toneVar_04_problema.ino/
+/exemplos_WorkshopSomar/toneVar_05_problema/toneVar_05_solucao.ino/
+
 - stranger tempo...
+  - https://www.youtube.com/watch?v=-RcPZdihrp4
+
+*** 4.1.2 COMENTÁRIOS 
+- variáveis
+- convenção de nomenclatura
+
+*** 4.1.3 MOD
 - mudar para o pino 7
+
+** 4.2 EXEMPLO 2
+*** 4.2.1 CÓDIGO
+/exemplos_WorkshopSomar/varOperacao_06/varOperacao_06.ino/
+
+*** 4.2.2 COMENTÁRIOS
+
+*** 4.2.3 MODS
 - desafio: var_operacao
   - como criar lógica para duração ser /em função/ do tempo de delay?
 

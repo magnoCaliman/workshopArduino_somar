@@ -1,6 +1,7 @@
 int pinoColuna = 7;
-int tempoDelay = 180;
-int dur;
+int tempoDelay = 100;
+int durSomLongo = 150;
+int durSomCurto = 40;
 
 void setup()
 {
@@ -9,32 +10,29 @@ void setup()
 
 void loop()
 {
-  int dado = random(0, 2);
+  int dado = random(0, 10);
 
-  if (dado == 0)
+  if (dado < 5)
   {
-    dur = 40;
+    tone(pinoColuna, 100, durSomLongo);
+    delay(tempoDelay);
+    tone(pinoColuna, 150, durSomLongo);
+    delay(tempoDelay);
+    tone(pinoColuna, 180, durSomLongo);
+    delay(tempoDelay);
+    tone(pinoColuna, 120, durSomLongo);
+    delay(tempoDelay);
   }
 
-  if (dado == 1)
+  if (dado > 5)
   {
-    dur = 180;  
+    tone(pinoColuna, 300, durSomCurto);
+    delay(tempoDelay);
+    tone(pinoColuna, 350, durSomCurto);
+    delay(tempoDelay);
+    tone(pinoColuna, 480, durSomCurto);
+    delay(tempoDelay);
+    tone(pinoColuna, 450, durSomCurto);
+    delay(tempoDelay);
   }
-  
-  tone(pinoColuna,65, dur);
-  delay(tempoDelay);
-  tone(pinoColuna,82, dur);
-  delay(tempoDelay);
-  tone(pinoColuna,98, dur);
-  delay(tempoDelay);
-  tone(pinoColuna,123, dur);
-  delay(tempoDelay);
-  tone(pinoColuna,130, dur);
-  delay(tempoDelay);
-  tone(pinoColuna,123, dur);
-  delay(tempoDelay);
-  tone(pinoColuna,98, dur);
-  delay(tempoDelay);
-  tone(pinoColuna,82, dur);
-  delay(tempoDelay);
 }
