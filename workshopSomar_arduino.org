@@ -46,7 +46,8 @@ void loop()
 
 * ~tone()~
 ** CIRCUITO
-[[./exemplos_workshopSomar/tone_02/tone_02.png]]
+
+![](./exemplos_workshopSomar/tone_02/tone_02.png)
 
 - /tone_02.ino/
 - tone sozinho (2 arg)
