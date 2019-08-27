@@ -47,7 +47,8 @@ void loop()
 - regras de nomenclatura
 
 *** 1.3 MODS
-- como mudar o tempo de piscagem?
+- o que vocês mudariam nesse código?
+
 
 * 2. ~tone()~
 
@@ -74,11 +75,24 @@ void loop()
 }
 #+END_SRC
 
-* delay
-- tone_delay
-- vários em sequência!
+
+* 3. ~delay()~
+
+*** 2.1 CÓDIGO
+/exemplos_WorkshopSomar/toneDelay_03/toneDelay_03.ino/
+
+*** 2.2 COMENTÁRIOS
+- quantidade de argumentos
+- comentários!
+
+*** 2.3 MODS
+
+- agora vários sons em sequência!
+
 #+BEGIN_SRC c
-tone(5, 100, 90);
+void loop()
+{
+  tone(5, 100, 90);
   delay(100);
   tone(5, 200, 90);
   delay(100);
@@ -86,6 +100,7 @@ tone(5, 100, 90);
   delay(100);
   tone(5, 400, 90);
   delay(100);
+}
 #+END_SRC
 
 * var
