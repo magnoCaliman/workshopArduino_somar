@@ -131,14 +131,31 @@ void loop()
 /exemplos_WorkshopSomar/varOperacao_06/varOperacao_06.ino/
 
 *** 4.2.2 COMENTÁRIOS
+- ~tone(pinoColuna, freqBase + 100, 90);~ muda o valor da variável ~freqBase~?
 
 *** 4.2.3 MODS
 - como fazer a duração do som ser /em função/ do tempo de delay?
 
 
-* random
+* 5. ~random()~
+*** 5.1 CÓDIGO
+/exemplos_WorkshopSomar/random_07/random_07.ino/
+
+*** 5.1 COMENTÁRIOS
+- função como argumento de outra função / modularidade
+- numero enquanto abstração
+
+*** 5.2 MODS
 - noise!
-- qual a diferença entre delayRandom_07 e 08?
+
+#+BEGIN_SRC c
+void loop()
+{
+  tone(pinoColuna, random(100, 500));
+}
+#+END_SRC
+
+- qual a diferença entre /delayRandom_07.ino/ e /delayRandom_08.ino/?
 
 * if
 - como mudar a probabilidade?
