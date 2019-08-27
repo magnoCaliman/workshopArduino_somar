@@ -1,4 +1,4 @@
-* 0 - Arduino?
+* 0. Arduino?
 - O quê é?
   - https://www.arduino.cc/
 - O quê dá para fazer?
@@ -8,23 +8,23 @@
   - https://youtu.be/JCiXV6b7N0A
   - https://www.instructables.com/member/amandaghassaei/instructables/
 
-** Instalação
+** 0.1 INSTALAÇÃO
 - https://www.arduino.cc/en/Main/Software
 
-*** Drivers
+*** 0.1.1 DRIVERS
 - Arduinos chineses (muitas vezes) precisam de drivers extras para funcionar.
 - Buscar por "CH340 Arduino driver" + o nome do seu sistema operativo.
   - http://www.wch.cn/download/CH341SER_MAC_ZIP.html
   - http://www.wch.cn/download/CH341SER_EXE.html
 
 
-* 1 - BLINK
-- Copiar e colar o código abaixo em uma janela nova da Arduino IDE
-- Selecionar a placa e porta correta em Tools -> Board & Tools -> Port
-- Salvar o arquivo
-- Fazer upload
+* 1. BLINK
+1. Copiar e colar o código abaixo em uma janela nova da Arduino IDE
+2. Selecionar a placa e porta correta em Tools -> Board & Tools -> Port
+3. Salvar o arquivo
+4. Fazer upload
 
-** CÓDIGO
+** 1.1 CÓDIGO
 #+BEGIN_SRC c
 int pinoLed = 13;
 
@@ -42,25 +42,29 @@ void loop()
 }
 #+END_SRC
 
-** MODS
-- Como mudar o tempo de piscagem?
+** 1.2 COMENTÁRIOS
+- estrutura de pastas
+- regras de nomenclatura
 
-* 2 - ~tone()~
+** 1.3 MODS
+- como mudar o tempo de piscagem?
 
-** CÓDIGO
-_exemplos_WorkshopSomar/tone_02/tone_02.ino_
+* 2. ~tone()~
 
-** CIRCUITO
-_exemplos_WorkshopSomar/tone_02/tone_02.png_
+** 2.1 CÓDIGO
+/exemplos_WorkshopSomar/tone_02/tone_02.ino/
 
-** COMENTÁRIOS
+** 2.2 CIRCUITO
+/exemplos_WorkshopSomar/tone_02/tone_02.png/
+
+** 2.3 COMENTÁRIOS
 - ~void setup()~ e ~void loop()~
 - funções & argumentos
 - RTFM
 - sintaxe
 
-** MODS
-- /"Only one tone can be generated at a time"/
+** 2.4 MODS
+- _Only one tone can be generated at a time"_
 #+BEGIN_SRC c
 // pode isso então?
 void loop()
