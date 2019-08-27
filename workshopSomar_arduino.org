@@ -166,14 +166,21 @@ void loop()
 
 *** 6.2 COMENTÁRIOS
 - testes de ~TRUE~ e ~FALSE~
-- ~=~ vs. ~==~~
+- ~=~ vs. ~==~
 
 *** 6.3 MODS
 - como mudar a probabilidade?
 
 * 7. ITERAÇÃO 
 *** 7.1 CÓDIGO
+/exemplos_WorkshopSomar/iteracao_12/iteracao_12.ino/
+
+*** 7.2 COMENTÁRIOS
+- ~x = x + 1~
+
+*** MODS
 - como fazer subir mais rápido, /e depois voltar/?
 
-* tudo junto e misturado...
-- 
+* 8. TUDO JUNTO E MISTURADO
+- /exemplos_WorkshopSomar/tudoJunto_13/tudoJunto_13.ino/
+- Esse código usa todos os conceitos vistos até agora em um único exemplo. Como?
