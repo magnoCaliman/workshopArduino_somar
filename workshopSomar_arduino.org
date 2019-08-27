@@ -64,7 +64,7 @@ void loop()
 - sintaxe
 
 ** 2.4 MODS
-- _Only one tone can be generated at a time_
+- __Only one tone can be generated at a time__
 #+BEGIN_SRC c
 // pode isso então?
 void loop()
