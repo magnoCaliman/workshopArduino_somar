@@ -166,6 +166,7 @@ void loop()
 
 *** 6.2 COMENTÁRIOS
 - testes de ~TRUE~ e ~FALSE~
+- erro de sintaxe vs. erro de lógica
 - ~=~ vs. ~==~
 
 *** 6.3 MODS
