@@ -1,4 +1,5 @@
 int tempoDelay = 180;
+int canalTone = 7
 
 void setup()
 {
@@ -7,7 +8,7 @@ void setup()
 
 void loop()
 {
-  tone(5, 65);
+  tone(canalTone, 65);
   delay(tempoDelay);
   tone(5, 82);
   delay(tempoDelay);
