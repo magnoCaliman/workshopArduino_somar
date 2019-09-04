@@ -155,7 +155,7 @@ void loop()
 }
 #+END_SRC
 
-- qual a diferença entre /delayRandom_07.ino/ e /delayRandom_08.ino/?
+- qual a diferença entre /delayRandom_08.ino/ e /delayRandom_09.ino/?
 
 
 * 6. ~if()~
@@ -166,6 +166,7 @@ void loop()
 
 *** 6.2 COMENTÁRIOS
 - testes de ~TRUE~ e ~FALSE~
+- erro de sintaxe vs. erro de lógica
 - ~=~ vs. ~==~
 
 *** 6.3 MODS
