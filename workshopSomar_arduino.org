@@ -136,7 +136,7 @@ void loop()
 *** 4.2.3 MODS
 - como fazer a duração do som ser /em função/ do tempo de delay?
 
-
+  
 * 5. ~random()~
 *** 5.1 CÓDIGO
 /exemplos_WorkshopSomar/random_07/random_07.ino/
@@ -171,6 +171,7 @@ void loop()
 *** 6.3 MODS
 - como mudar a probabilidade?
 
+
 * 7. ITERAÇÃO 
 *** 7.1 CÓDIGO
 /exemplos_WorkshopSomar/iteracao_12/iteracao_12.ino/
@@ -180,6 +181,7 @@ void loop()
 
 *** 7.3 MODS
 - como fazer subir mais rápido, /e depois voltar/?
+
 
 * 8. TUDO JUNTO E MISTURADO
 - /exemplos_WorkshopSomar/tudoJunto_13/tudoJunto_13.ino/
